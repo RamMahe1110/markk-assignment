@@ -56,13 +56,12 @@
 }
 
 .feedback {
-  background: rgba(255, 255, 255, 0.2);
   color: rgba(255, 255, 255, 0.6);
   border-radius: 50px;
   position: absolute;
   z-index: 1;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 60%;
   top: 95%;
   left: 5%;
