@@ -26,6 +26,20 @@ class Card extends React.Component {
           <img src={require("../../assets/img/cam.png")} />
           <span>3</span>
         </h1>
+        <div className="feedback">
+          <div className="heart">
+            <img src={require("../../assets/img/heart.png")} />
+            <span>2</span>
+          </div>
+          <div className="cmnt">
+            <img src={require("../../assets/img/cmnt.png")} />
+            <span>2</span>
+          </div>
+          <div className="share">
+            <img src={require("../../assets/img/share.png")} />
+            <span>3</span>
+          </div>
+        </div>
       </div>
     );
   }
