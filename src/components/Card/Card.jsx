@@ -22,7 +22,10 @@ class Card extends React.Component {
             src={require("../../assets/img/nope.png")}
           />
         )}
-        <h1>xD</h1>
+        <h1>
+          <img src={require("../../assets/img/cam.png")} />
+          <span>3</span>
+        </h1>
       </div>
     );
   }

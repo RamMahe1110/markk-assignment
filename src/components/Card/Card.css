@@ -44,12 +44,15 @@
   transform: translate(-50%, -50%);
   background: rgba(255, 255, 255, 0.2);
   color: rgba(255, 255, 255, 0.6);
-  padding: 5px;
-  border-radius: 5px;
-  width: 30%;
+  padding: 3px;
+  border-radius: 50px;
+  width: 22%;
   font-size: 15px;
   text-align: center;
   z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 @media screen and (max-width: 1300px) {
