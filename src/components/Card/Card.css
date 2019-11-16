@@ -59,9 +59,6 @@
   .card {
     width: 100%;
   }
-  .card h1 {
-    width: 35%;
-  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -82,9 +79,13 @@
   }
 
   .card h1 {
-    width: 35%;
-    text-align: center;
+    width: 25%;
     font-size: 3vw;
+  }
+
+  .card h1 img {
+    width: 14px;
+    height: auto;
   }
 }
 
@@ -95,8 +96,6 @@
   }
 
   .card h1 {
-    width: 40%;
-    text-align: center;
-    font-size: 4vw;
+    width: 30%;
   }
 }
