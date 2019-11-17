@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/markk-assignment/static/css/main.82e4a4ab.chunk.css",
-    "main.js": "/markk-assignment/static/js/main.7ffce2a4.chunk.js",
-    "main.js.map": "/markk-assignment/static/js/main.7ffce2a4.chunk.js.map",
+    "main.js": "/markk-assignment/static/js/main.2ca2069d.chunk.js",
+    "main.js.map": "/markk-assignment/static/js/main.2ca2069d.chunk.js.map",
     "runtime-main.js": "/markk-assignment/static/js/runtime-main.b9771819.js",
     "runtime-main.js.map": "/markk-assignment/static/js/runtime-main.b9771819.js.map",
-    "static/js/2.ab7aca42.chunk.js": "/markk-assignment/static/js/2.ab7aca42.chunk.js",
-    "static/js/2.ab7aca42.chunk.js.map": "/markk-assignment/static/js/2.ab7aca42.chunk.js.map",
+    "static/js/2.31408363.chunk.js": "/markk-assignment/static/js/2.31408363.chunk.js",
+    "static/js/2.31408363.chunk.js.map": "/markk-assignment/static/js/2.31408363.chunk.js.map",
     "index.html": "/markk-assignment/index.html",
-    "precache-manifest.5b386c0f50bd2d52da1bd34f0ee1cef3.js": "/markk-assignment/precache-manifest.5b386c0f50bd2d52da1bd34f0ee1cef3.js",
+    "precache-manifest.acbbbf85d23ff791fc28ec3080c089e3.js": "/markk-assignment/precache-manifest.acbbbf85d23ff791fc28ec3080c089e3.js",
     "service-worker.js": "/markk-assignment/service-worker.js",
     "static/css/main.82e4a4ab.chunk.css.map": "/markk-assignment/static/css/main.82e4a4ab.chunk.css.map",
     "static/media/nope.png": "/markk-assignment/static/media/nope.203eac9d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b9771819.js",
-    "static/js/2.ab7aca42.chunk.js",
+    "static/js/2.31408363.chunk.js",
     "static/css/main.82e4a4ab.chunk.css",
-    "static/js/main.7ffce2a4.chunk.js"
+    "static/js/main.2ca2069d.chunk.js"
   ]
 }
