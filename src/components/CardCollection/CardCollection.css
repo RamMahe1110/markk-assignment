@@ -7,6 +7,12 @@
   margin: auto;
 }
 
+@media screen and (max-width: 1600px) {
+  .card-collection {
+    max-width: 80%;
+  }
+}
+
 @media screen and (max-width: 1400px) {
   .card-collection {
     max-width: 100%;
