@@ -22,6 +22,9 @@ class Card extends React.Component {
             src={require("../../assets/img/nope.png")}
           />
         )}
+        <div className="avatar">
+          <img src="https://i.pravatar.cc/50" />
+        </div>
         <h1>
           <img src={require("../../assets/img/cam.png")} />
           <span>3</span>

@@ -37,10 +37,27 @@
   transform: translate(-50%, -50%);
 }
 
+.card .avatar {
+  position: absolute;
+  z-index: 1;
+  top: 88%;
+  left: 8%;
+  transform: translate(0%, -50%);
+  display: flex;
+  align-items: center;
+  padding: 3px;
+}
+
+.card .avatar img {
+  width: 20px;
+  height: auto;
+  border-radius: 50px;
+}
+
 .card h1 {
   position: absolute;
   top: 88%;
-  left: 5%;
+  left: 20%;
   transform: translate(0%, -50%);
   background: rgba(255, 255, 255, 0.2);
   color: rgba(255, 255, 255, 0.6);
@@ -101,10 +118,15 @@
     height: auto;
   }
 
+  .card .avatar {
+    top: 85%;
+  }
+
   .card h1 {
     width: 25%;
     font-size: 3vw;
     top: 85%;
+    left: 25%;
   }
 
   .card h1 img {
