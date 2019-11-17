@@ -7,9 +7,15 @@
   z-index: 3;
   background: black;
   max-width: 100%;
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0);
 }
 
 @media screen and (max-width: 800px) {
+  .navbar {
+    padding: 20px 30px;
+    margin-bottom: 25px;
+  }
+
   .navbar img {
     width: 100px;
     height: auto;
