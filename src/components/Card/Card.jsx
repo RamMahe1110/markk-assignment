@@ -32,7 +32,10 @@ class Card extends React.Component {
         )}
         <div className="location">{this.truncate(this.props.title, 3)}</div>
         <div className="avatar">
-          <img src="https://i.pravatar.cc/50" alt="avatar" />
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRjnvVnGfSpJ7IRrr75PT0rYYdEEB4wb-Wyc5Li-iv4rGaAHRUH"
+            alt="avatar"
+          />
         </div>
         <h1>
           <img src={require("../../assets/img/cam.png")} alt="cam" />
