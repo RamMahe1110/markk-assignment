@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/markk-assignment/static/css/main.21a28e40.chunk.css",
+    "main.css": "/markk-assignment/static/css/main.814ca9c7.chunk.css",
     "main.js": "/markk-assignment/static/js/main.fd6269d3.chunk.js",
     "main.js.map": "/markk-assignment/static/js/main.fd6269d3.chunk.js.map",
     "runtime-main.js": "/markk-assignment/static/js/runtime-main.b9771819.js",
@@ -8,15 +8,15 @@
     "static/js/2.5cdf9793.chunk.js": "/markk-assignment/static/js/2.5cdf9793.chunk.js",
     "static/js/2.5cdf9793.chunk.js.map": "/markk-assignment/static/js/2.5cdf9793.chunk.js.map",
     "index.html": "/markk-assignment/index.html",
-    "precache-manifest.3a7744ab1a1083293dfc596a40b95276.js": "/markk-assignment/precache-manifest.3a7744ab1a1083293dfc596a40b95276.js",
+    "precache-manifest.bbd410e4846309cd72cc1a77e141fefe.js": "/markk-assignment/precache-manifest.bbd410e4846309cd72cc1a77e141fefe.js",
     "service-worker.js": "/markk-assignment/service-worker.js",
-    "static/css/main.21a28e40.chunk.css.map": "/markk-assignment/static/css/main.21a28e40.chunk.css.map",
+    "static/css/main.814ca9c7.chunk.css.map": "/markk-assignment/static/css/main.814ca9c7.chunk.css.map",
     "static/media/nope.png": "/markk-assignment/static/media/nope.203eac9d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b9771819.js",
     "static/js/2.5cdf9793.chunk.js",
-    "static/css/main.21a28e40.chunk.css",
+    "static/css/main.814ca9c7.chunk.css",
     "static/js/main.fd6269d3.chunk.js"
   ]
 }
