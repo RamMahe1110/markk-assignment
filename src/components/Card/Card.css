@@ -31,7 +31,7 @@
   position: absolute;
   top: 70%;
   left: 8%;
-  padding: 3px;
+  padding: 3px 3px 6px 3px;
   color: rgba(255, 255, 255, 0.5);
   width: 60%;
   z-index: 1;
@@ -174,7 +174,8 @@
   }
 
   .location {
-    top: 60%;
-    width: 100%;
+    top: 55%;
+    width: 80%;
+    line-height: 22px;
   }
 }
