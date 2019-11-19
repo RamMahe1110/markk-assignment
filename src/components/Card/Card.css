@@ -172,4 +172,9 @@
   .card h1 {
     width: 30%;
   }
+
+  .location {
+    top: 60%;
+    width: 100%;
+  }
 }
