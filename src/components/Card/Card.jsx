@@ -2,7 +2,13 @@ import React from "react";
 import "./Card.css";
 
 class Card extends React.Component {
-  state = {};
+  truncate = (str, no_words) => {
+    return str
+      .split(" ")
+      .splice(0, no_words)
+      .join(" ");
+  };
+
   render() {
     return (
       <div className="card">
@@ -24,6 +30,7 @@ class Card extends React.Component {
             alt="nope"
           />
         )}
+        <div className="location">{this.truncate(this.props.title, 3)}</div>
         <div className="avatar">
           <img src="https://i.pravatar.cc/50" alt="avatar" />
         </div>

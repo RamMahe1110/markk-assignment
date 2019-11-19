@@ -27,6 +27,17 @@
   object-fit: cover;
 }
 
+.location {
+  position: absolute;
+  top: 70%;
+  left: 8%;
+  padding: 3px;
+  color: rgba(255, 255, 255, 0.5);
+  width: 60%;
+  z-index: 1;
+  text-align: left;
+}
+
 .card .reaction {
   z-index: 1;
   position: absolute;
@@ -104,6 +115,13 @@
 @media screen and (max-width: 1000px) {
   .card h1 {
     font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .location {
+    top: 65%;
+    width: 70%;
   }
 }
 
