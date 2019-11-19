@@ -4,6 +4,7 @@ import axios from "axios";
 import Card from "../Card/Card";
 
 import "./CardCollection.css";
+import LoaderEle from "./../Loader/Loader";
 
 class CardCollection extends React.Component {
   state = {
@@ -22,11 +23,7 @@ class CardCollection extends React.Component {
 
   render() {
     if (this.state.data === null) {
-      return (
-        <div>
-          <h1>Loading</h1>
-        </div>
-      );
+      return <LoaderEle />;
     }
 
     return (
