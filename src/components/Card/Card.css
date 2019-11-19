@@ -36,6 +36,7 @@
   width: 60%;
   z-index: 1;
   text-align: left;
+  line-height: 22px;
 }
 
 .card .reaction {
@@ -176,6 +177,5 @@
   .location {
     top: 55%;
     width: 80%;
-    line-height: 22px;
   }
 }
