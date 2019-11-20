@@ -1,5 +1,4 @@
 import React from "react";
-import rangeInclusive from "range-inclusive";
 import axios from "axios";
 import Card from "../Card/Card";
 
@@ -8,7 +7,17 @@ import LoaderEle from "./../Loader/Loader";
 
 class CardCollection extends React.Component {
   state = {
-    data: null
+    data: null,
+    corruptImg: {
+      540: 669,
+      592: 741,
+      561: 757,
+      589: 726,
+      595: 796,
+      597: 798,
+      578: 777,
+      587: 723
+    }
   };
 
   componentDidMount() {
@@ -22,6 +31,8 @@ class CardCollection extends React.Component {
   }
 
   render() {
+    const { corruptImg } = this.state;
+
     if (this.state.data === null) {
       return <LoaderEle />;
     }
@@ -29,7 +40,11 @@ class CardCollection extends React.Component {
     return (
       <div className="card-collection">
         {this.state.data.map((item, i) => (
-          <Card key={i} id={i + 500} title={item.title} />
+          <Card
+            key={i}
+            id={corruptImg[i + 500] ? corruptImg[i + 500] : i + 500}
+            title={item.title}
+          />
         ))}
       </div>
     );
