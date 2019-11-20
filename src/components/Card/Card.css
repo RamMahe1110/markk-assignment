@@ -28,6 +28,7 @@
 }
 
 .location {
+  font-family: "Lobster", cursive;
   position: absolute;
   top: 70%;
   left: 8%;
@@ -37,6 +38,7 @@
   z-index: 1;
   text-align: left;
   line-height: 22px;
+  font-size: 20px;
 }
 
 .card .reaction {
